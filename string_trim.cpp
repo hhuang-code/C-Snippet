@@ -1,3 +1,5 @@
+// Delete leading and tailing whitespace
+
 string trim(const string& str){
 	const auto pos1 = str.find_first_not_of(' ');
 	if(pos1 == string::npos){
